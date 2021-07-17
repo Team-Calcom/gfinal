@@ -1,0 +1,26 @@
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+h1 {
+  box-shadow: 5px 5px 3px 1px black
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+span.green {color:green;}
+
+h1 {
+      text-shadow: 3px 2px red;
+  }
